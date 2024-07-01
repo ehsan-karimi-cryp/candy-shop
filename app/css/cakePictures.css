@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .page-cakes {
+    @apply flex flex-wrap justify-around w-[100vw] mt-20;
+  }
+  .each-main-cake {
+    @apply bg-[#ba9fc4] p-2 rounded-lg m-5 flex flex-col justify-center items-center;
+  }
+  .each-main-cake-image {
+    @apply rounded-lg object-cover m-2;
+  }
+}
+.each-main-cake {
+  box-shadow: 10px 10px 10px #f59ae1;
+}

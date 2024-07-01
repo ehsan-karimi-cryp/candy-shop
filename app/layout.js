@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import "./globals.css";
+import "./css/globals.css";
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">

@@ -20,7 +20,11 @@ body {
 }
 @layer components {
   .header-buttons {
-    @apply bg-pink-600 text-white rounded-lg px-5 py-2 text-lg m-1 font-bold
-    hover:bg-pink-800 transition-all duration-200
+    @apply bg-pink-600 text-white rounded-lg py-2 text-lg m-1 font-bold
+    hover:bg-pink-800 transition-all duration-200 flex justify-center items-center
+    w-32
+  }
+  .website-text {
+    @apply text-center m-10 font-bold text-3xl text-pink-800 hover:scale-110 transition-all duration-200;
   }
 }
